@@ -2,7 +2,7 @@
 
 ####setting directory###
 
-setwd("C:\\Users\\JANE ODUM\\Desktop\\Lab\\Text-mining")
+
 
 
 ###load library
