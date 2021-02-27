@@ -13,7 +13,8 @@ library(wordcloud2)
 library(RColorBrewer)
 
 ###load text from URL
-filePath = "https://acadgild.com/artificial-intelligence.txt"
+filePath <- readline(prompt = "Enter the URL of the article: ")
+##filePath = "https://acadgild.com/artificial-intelligence.txt"
 
 
 text_file = readLines(filePath) ##read all lines in the filePath and store it in text_file
